@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title style="color: whitesmoke;">Movie Recommendation System</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: black">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Movie Recommender</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recommender</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Comedy</a></li>
+                  <li><a class="dropdown-item" href="#">Drama</a></li>
+                  <li><a class="dropdown-item" href="#">Horror</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-img-top" style="
+              background-image: url('https://www.moviehdwallpapers.com/wp-content/uploads/2013/08/Avatar-2.jpg');
+              height: 250px;
+              background-size: contain;
+              background-position: left;
+              background-repeat: no-repeat;
+            "></div>
+            <div class="card-body">
+              <h5 class="card-title">Avatar</h5>
+              <p class="card-text">Genre: Action, Adventure, Fantasy, Science Fiction.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-img-top" style="
+              background-image: url('https://media.s-bol.com/qP0YvLk2MO0/1200x1177.jpg');
+              height: 250px;
+              background-size: contain;
+              background-position: left;
+              background-repeat: no-repeat;
+            "></div>
+            <div class="card-body">
+              <h5 class="card-title">Pirates of the Caribbean: At World's End</h5>
+              <p class="card-text">Genre: Adventure, Fantasy, Action.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-img-top" style="
+              background-image: url('https://i0.wp.com/deluxevideoonline.org/wp-content/uploads/2015/11/spectre.jpg?ssl=1');
+              height: 250px;
+              background-size: contain;
+              background-position: left;
+              background-repeat: no-repeat;
+            "></div>
+            <div class="card-body">
+              <h5 class="card-title">Spectre</h5>
+              <p class="card-text">Genre: Action, Adventure, Crime.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 50px;">
+          <div class="card">
+            <div class="card-img-top" style="
+              background-image: url('https://www.filmofilia.com/wp-content/uploads/2012/05/Dark-Knight-Rises-Poster_01.jpg');
+              height: 250px;
+              background-size: contain;
+              background-position: left;
+              background-repeat: no-repeat;
+            "></div>
+            <div class="card-body">
+              <h5 class="card-title">The Dark Knight Rises</h5>
+              <p class="card-text">Genre: Action, Adventure, Crime.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 50px;">  
+          <div class="card">
+            <div class="card-img-top" style="
+              background-image: url('https://www.joblo.com/wp-content/uploads/2011/12/john-carter-banner-2-1.jpg');
+              height: 250px;
+              background-size: contain;
+              background-position: left;
+              background-repeat: no-repeat;
+            "></div>
+            <div class="card-body">
+              <h5 class="card-title">John Carter</h5>
+              <p class="card-text">Genre: Action, Adventure, Crime.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 50px;">  
+          <div class="card">
+            <div class="card-img-top" style="
+              background-image: url('https://image.tmdb.org/t/p/original/hAJ0Ql3pzOGyuB8y6hkCFCwxTo0.jpg');
+              height: 250px;
+              background-size: contain;
+              background-position: left;
+              background-repeat: no-repeat;
+            "></div>
+            <div class="card-body">
+              <h5 class="card-title">Spider-Man 3</h5>
+              <p class="card-text">Genre: Fantasy, Action, Adventure.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 50px;">  
+          <div class="card">
+            <div class="card-img-top" style="
+              background-image: url('http://images4.fanpop.com/image/photos/18000000/Tangled-tangled-18015049-1600-1200.jpg');
+              height: 250px;
+              background-size: contain;
+              background-position: left;
+              background-repeat: no-repeat;
+            "></div>
+            <div class="card-body">
+              <h5 class="card-title">Tangled</h5>
+              <p class="card-text">Genre: Animation, Family.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 50px;">  
+          <div class="card">
+            <div class="card-img-top" style="
+              background-image: url('https://updatemexico.com/wp-content/uploads/2020/04/avengers-age-of-ultron-banner.jpg');
+              height: 250px;
+              background-size: contain;
+              background-position: left;
+              background-repeat: no-repeat;
+            "></div>
+            <div class="card-body">
+              <h5 class="card-title">Avengers: Age of Ultron</h5>
+              <p class="card-text">Genre: Action, Adventure, ScienceFiction.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 50px;">  
+          <div class="card">
+            <div class="card-img-top" style="
+              background-image: url('https://image.tmdb.org/t/p/original/gYsG0HDxFtdhC7MiMxirjogwtf2.jpg');
+              height: 250px;
+              background-size: contain;
+              background-position: left;
+              background-repeat: no-repeat;
+            "></div>
+            <div class="card-body">
+              <h5 class="card-title">Harry Potter and the Half-Blood Prince</h5>
+              <p class="card-text">Genre: Adventure, Fantasy, Family.</p>
+              
+            </div>
+          </div>
+        </div>    
+      
+      
+            </div>
+          </div>
+        </div>
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+ </html>
